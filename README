@@ -1,0 +1,28 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2785
+
+*wwwsearch* is a Vim plugin to provide various ways to search the World Wide
+Web with various web search engines.  For example,
+
+	:Wwwsearch vim
+
+the above command activates your favorite Web browser then searches WWW for
+a keyword "vim" with a search engine (by default, Google).  You can also
+specify which search engine to use as follows:
+
+	:Wwwsearch -google vim
+
+See also |wwwsearch-interface|, |wwwsearch-customizing| and
+|wwwsearch-examples| for more details.
+
+
+Requirements:
+- Vim 7.2 or later
+
+Optionals:
+- |operator-user| (vimscript#2692)
+
+Latest version:
+http://github.com/kana/vim-wwwsearch
+
+Document in HTML format:
+http://kana.github.com/config/vim/wwwsearch.html
